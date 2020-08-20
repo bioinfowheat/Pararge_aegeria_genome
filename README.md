@@ -41,3 +41,15 @@ Neethiraj, R., Hornett, E.A., Hill, J.A., and Wheat, C.W. (2017). Investigating 
 + `Pararge_aegeria_v2.repeats.bed`    repeat masking coordinates, of which 157,778,708 bp (32.92%) was identified as repeat content
 + `Pararge_aegeria_v2.softmasked.fa`  a soft masked genome based upon the repeat bed file
 + `README.md` — This file.
+
+
+***************************************
+
+### The orgins of the different files for the Pararge aegeria genome v2 are listed ###
+ln -s /mnt/griffin/chrwhe/Paeg_assembly/Pararge_aegeria_v2/mespa_haploid_genome/scaffolds.mfa Pararge_aegeria_v2.fa
+ln -s /mnt/griffin/chrwhe/Paeg_assembly/Pararge_aegeria_v2/braker_annotation/star_alignment_v_Pararge_aegeria_v2/braker/P_aegeria_v2_RNAseq_prot/augustus.hints.gtf Pararge_aegeria_v2.Braker_predictions.gtf
+ln -s /mnt/griffin/chrwhe/Paeg_assembly/Pararge_aegeria_v2/functional_annotations/Paeg.pol2.cln.msk.hapA.tndrm.mespaSS.fa.braker_prot.start_nointstop_stoprm.fa.emapper.annotations Pararge_aegeria_v2.Braker_functional_annotations.tsv
+ln -s /mnt/griffin/chrwhe/Paeg_assembly/Pararge_aegeria_v2/braker_annotation/Paeg.pol2.cln.msk.hapA.tndrm.mespaSS.fa.braker_prot.fa Pararge_aegeria_v2.Braker_proteins.fa
+ln -s /mnt/griffin/chrwhe/Paeg_assembly/Pararge_aegeria_v2/braker_annotation/Paeg.pol2.cln.msk.hapA.tndrm.mespaSS.fa.braker_prot.start_nointstop_stoprm.fa Pararge_aegeria_v2.Braker_proteins_hiqualityfiltered.fa
+ln -s /mnt/griffin/chrwhe/Paeg_assembly/Pararge_aegeria_v2/masking/final_mask/Pararge_aegeria_v2.masked.fa.repeats.bed Pararge_aegeria_v2.repeats.bed
+ln -s /mnt/griffin/chrwhe/Paeg_assembly/Pararge_aegeria_v2/masking/final_mask/Pararge_aegeria_v2.masked.fa.softmasked.fa Pararge_aegeria_v2.softmasked.fa
